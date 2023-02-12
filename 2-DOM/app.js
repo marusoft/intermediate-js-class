@@ -34,3 +34,33 @@ function getLength(){
 function reset(){
   headingNum.innerText = ""
 }
+
+
+/**
+ * document.getElementsByTagName()
+ * Retrieves a collection of objects based on 
+ * the specified element name.
+ * @param name — Specifies the name of an element.
+ */
+
+const selectParaTag = document.getElementsByTagName("p");
+console.log(selectParaTag.item(1).innerText.toUpperCase())
+console.log(selectParaTag.item(2).innerText.toLowerCase());
+
+/**
+ * document.querySelector()
+ * Returns the first element that is a descendant 
+ * of node that matches selectors.
+ */
+
+ const helloMe = document.querySelector(".hello");
+ const input = document.getElementsByTagName("input")[0]
+ input.setAttribute("name", "hello")
+ console.log(input)
+ 
+ /**
+  * document.querySelectorAll
+  * Returns all element descendants of node that match selectors.
+  */
+ const sectionList = document.querySelectorAll("section");
+ console.log(sectionList.length);
