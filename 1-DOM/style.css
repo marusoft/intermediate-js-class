@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button-wrapper{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1, .btn2{
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.input-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.9rem;
+}
+input{
+  width: 50%;
+  padding: .9rem
+  ;
+}
