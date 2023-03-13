@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Access the DOM</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="my-list">
+      <ul class="list">
+        <li class="list-item" id="list-1">List One</li>
+        <li class="list-item" id="list-1">List Two</li>
+        <li class="list-item" id="list-1">List Three</li>
+        <li class="list-item" id="list-1">List Four</li>
+      </ul>
+    </section>
+    
+    <section class="my-name">
+      <h3 class="name">John Doe</h3>
+      <h4 class="name">Software Engineer</h4>
+    </section>
+
+    <section class="my-para">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+        necessitatibus error, nihil excepturi labore esse?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+        necessitatibus error, nihil excepturi labore esse?
+      </p>
+      <span id="para-num"></span>
+      <button onclick="getParaNum()">Get paragraph length</button>
+      <button onclick="resetAll()">Reset</button>
+    </section>
+
+    <section class="hello-container">
+      <span class="hello-text">hello World</span>
+      <input type="text" placeholder="hello world" />
+    </section>
+
+    <!-- parentNode Section start -->
+    <section id="parent">
+      <p id="first-child">Some child text</p>
+      <p id="second-child">Some more child text</p>
+    </section>
+    <!-- parentNode Section end -->
+
+    <!-- create element section start -->
+    <section id="create-elements"></section>
+    <!-- create element section end -->
+
+    <!-- example-1 of how to remove an element in the DOM -->
+    <section id="favorite-food-wrapper">
+      <h1>LIST OF FAVORITE FOOD</h1>
+      <ul id="favorite-food-list">
+        <li id="food-list-item-1">Garri & Vegetable soup</li>
+        <li id="food-list-item-2">Fufu and Okra soup</li>
+        <li id="food-list-item-3">Semolina & jute leaves soup</li>
+        <li id="food-list-item-4">Wheat and African Rosewood plant soup</li>
+      </ul>
+    </section>
+
+    <!-- example-2 of how to remove an element in the DOM -->
+    <section id="favorite-club-wrapper">
+      <h1>LIST OF FAVORITE CLUB</h1>
+      <ul id="favorite-club-list">
+        <li id="club-list-item-1">Liverpool</li>
+        <li id="club-list-item-2">Man City</li>
+        <li id="club-list-item-3">Tottenham</li>
+        <li id="club-list-item-4">Benfica</li>
+      </ul>
+    </section>
+    <!-- example-2 of how to remove an element in the DOM -->
+
+    <!-- onclick example start -->
+    <section id="onclick-container">
+      <button id="add-item">Create Items</button>
+      <ul id="my-list"></ul>
+    </section>
+    <!-- onclick example end -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>

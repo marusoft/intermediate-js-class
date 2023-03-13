@@ -1,0 +1,20 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+} */
+.my-name{
+  padding: 2rem;
+}
+.my-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.list-item{
+  font-size: 2rem;
+  cursor: pointer;
+}
